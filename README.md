@@ -72,6 +72,8 @@ There is no tests for this project.
 ## 🎅 Authors
 
 Povilas: [Github](https://github.com/PovDai)
+Rimgaudas: [Github](https://github.com/RimgaudasGreenhat)
+
 
 ## ⚠️ License
 
