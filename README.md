@@ -19,14 +19,14 @@ Design: !https://sofaxdevhtml.netlify.app/contact-us
 
 ## 🎯 Project features/goals
 
--   Github pages
--   responsive design
--   CSS file (components)
--   external fonts
--   CSS animations
--   HTML forms
--   background image
--   CSS custom properties (aka variables)
+- Github pages
+- responsive design
+- CSS file (components)
+- external fonts
+- CSS animations
+- HTML forms
+- background image
+- CSS custom properties (aka variables)
 
 ## 🧰 Getting Started
 
@@ -49,21 +49,21 @@ https://git-scm.com
 Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
-    ```sh
-    git clone https://github.com/front-end-by-rimantas/55-grupe-sofax.git
-    ```
+   ```sh
+   git clone https://github.com/front-end-by-rimantas/55-grupe-sofax.git
+   ```
 2. Install NPM packages
-    ```sh
-    npm i
-    ```
-    or
-    ```sh
-    npm install
-    ```
+   ```sh
+   npm i
+   ```
+   or
+   ```sh
+   npm install
+   ```
 3. Run the server
-    ```sh
-    npm run dev
-    ```
+   ```sh
+   npm run dev
+   ```
 
 ### 🧪 Running tests
 
@@ -73,7 +73,7 @@ There is no tests for this project.
 
 Povilas: [Github](https://github.com/PovDai)
 Rimgaudas: [Github](https://github.com/RimgaudasGreenhat)
-
+Ernest: [Github](https://github.com/splatt141)
 
 ## ⚠️ License
 
