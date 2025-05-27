@@ -74,6 +74,7 @@ There is no tests for this project.
 Povilas: [Github](https://github.com/PovDai)
 Rimgaudas: [Github](https://github.com/RimgaudasGreenhat)
 Ernest: [Github](https://github.com/splatt141)
+Vitalij: [Github] (https://github.com/helltah)
 
 ## ⚠️ License
 
