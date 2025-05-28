@@ -7,6 +7,8 @@
 
 /* components */
 @import '../components/hero-footer.css';
+@import '../components/header.css';
+@import '../components/buttons.css';
 
 
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */
