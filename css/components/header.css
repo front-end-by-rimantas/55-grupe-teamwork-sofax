@@ -1,0 +1,32 @@
+.container-header
+{
+  padding: 0rem 1rem;
+}
+
+.headeris
+{
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo
+{
+  width: 120px;
+}
+
+.navbar
+{
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.navbar a
+{
+  text-decoration: none;
+  color: black;
+}
