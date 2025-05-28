@@ -1,8 +1,12 @@
 /* base */
 @import '../base/base.css';
+@import '../base/layout.css';
 
 /* vendors */
+@import '../vendors/font-awesome.min.css';
 
 /* components */
+@import '../components/hero-footer.css';
+@import '../components/mainMainrow.css';
 
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */

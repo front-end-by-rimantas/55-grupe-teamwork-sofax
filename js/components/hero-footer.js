@@ -1,7 +1,7 @@
 
 export function herofooter() {
 
-const appDOM = document.getElementById('app');
+
 const data = [
     {
         imgSrc: 'hero-footer1.png', 
@@ -23,11 +23,11 @@ const data = [
     },
 
 ];
-let HTML = '';
+let HTML1 = '';
 for (const item of data) {
-    HTML += `
+    HTML1 += `
          
-            <div class="kvadratas col-4 ">
+            <div class="col-12 col-lg-4  kvadratas">
 
                 <div class="kvadrato-pic">
                 <img src="./img/${item.imgSrc}" alt="${item.imgAlt}" >
@@ -38,7 +38,14 @@ for (const item of data) {
                 <p>${item.desc}</p>
                 </div>
 
-           </div> `
+           </div>`
+
+           
 };
-document.getElementById('app').insertAdjacentHTML('beforeend', HTML);
+
+ const HTML=`<div class="container"><div class="row konteineris"> ${HTML1} </div></div>  `
+
+document
+.getElementById('app')
+.insertAdjacentHTML('beforeend', HTML);
 }
