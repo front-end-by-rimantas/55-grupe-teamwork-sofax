@@ -1,0 +1,15 @@
+.konturas{
+    border: solid 1px red;
+    background-color: bisque;
+    padding: 1rem;
+    border-radius: 5%;
+    margin: 1rem;
+    
+}
+.konturas h1::after{
+    content: '';
+    display:block;
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+}
