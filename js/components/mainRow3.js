@@ -7,7 +7,8 @@ export function mainRow3(){
         title2:'Key features:',
         p1:'Lead, deal, contact, calendar and pipeline management',
         p2:'Seamless data import and 400+ integrations',
-        p3:'24/7, multi-language support'
+        p3:'24/7, multi-language support',
+        class:'white',
         }
         ,
         {
@@ -17,7 +18,8 @@ export function mainRow3(){
         title2:'Key features:',
         p1:'Full email sync with templates, open, click tracking & emailing',
         p2:'Automations builder, including email sequences',
-        p3:'Meeting, email and video call'
+        p3:'Meeting, email and video call',
+        class:'pink',
 
         },
             {
@@ -27,7 +29,8 @@ export function mainRow3(){
         title2:'Key features:',
         p1:'Streamlined lead routing and account access control',
         p2:'Document and contract management with e-signatures',
-        p3:'Revenue forecasts & reporting'
+        p3:'Revenue forecasts & reporting',
+        class:'white',
 
         }
     ]
@@ -43,7 +46,7 @@ export function mainRow3(){
         <p><i class="fa fa-check-circle" aria-hidden="true"></i>${item.p1}</p>
         <p><i class="fa fa-check-circle" aria-hidden="true"></i>${item.p2}</p>
         <p><i class="fa fa-check-circle" aria-hidden="true"></i>${item.p3}</p>
-        <button class="pink">Purchase now</button>
+        <button class="${item.class}">Purchase now</button>
         
         </div>
         `
@@ -52,7 +55,7 @@ export function mainRow3(){
 
 
 
-const HTML=`<div class="container"><div class="row"><h1 class="col-12 ">Discover the right price plan for you </h1><button class="col-2 m-5">Per month per year</button>${HTML1}</div></div>`
+const HTML=`<div class="container"><div class="row"><h1 class="col-12 ">Discover the right price plan for you </h1><button class="col-2 m-5 mygtukas">Per month per year</button>${HTML1}</div></div>`
 
     document
     .getElementById('app')
