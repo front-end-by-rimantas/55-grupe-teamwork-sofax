@@ -1,14 +1,14 @@
-
-@import '../base/base.css';
-@import '../base/layout.css';
+@import "../base/base.css";
+@import "../base/layout.css";
 
 /* vendors */
-@import '../vendors/font-awesome.min.css';
+@import "../vendors/font-awesome.min.css";
 
 /* components */
-@import '../components/mainMainrow.css';
-@import '../components/header.css';
-@import '../components/buttons.css';
-@import'../components/hero-footer.css';
+@import "../components/mainMainrow.css";
+@import "../components/header.css";
+@import "../components/buttons.css";
+@import "../components/hero-footer.css";
+@import "../components/main-header.css";
 
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */
