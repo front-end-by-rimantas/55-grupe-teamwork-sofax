@@ -1,8 +1,10 @@
 /* base */
-@import '../base/base.css';
-@import '../base/layout.css';
+@import "../base/base.css";
+@import "../base/layout.css";
+
 
 /* vendors */
+@import "../vendors/font-awesome.min.css";
 
 /* components */
 @import '../components/mainMainrow.css';
