@@ -20,7 +20,7 @@ export function mainHeader() {
               <div class="features">
                 <div class="feature-column">
                   <div class="feature-image">
-                    <img src="${item.imgSrc}" alt="" />
+                    <img src="${item.imgSrc}" alt="">
                   </div>
                   <div class="feature-content">
                     <h2>${item.title}</h2>
