@@ -93,20 +93,26 @@ for (const item of data2) {
 };
  
  const HTML=`
-    <div class="container-main1">
+    <div class="container main1">
         <div class="upperItRow">
           <h1 class="weprovide">We provide IT and business solutions</h1>  
         </div>
    
-   <div class="lowerItRow1">
+   <div class="row lowerItRow1">
+    <div>
     <div class="cards">
+    sadsdasdasd
         ${HTML1}
     </div> 
+    </div>
    </div>
 
-   <div class="lowerItRow2">
+   <div class="row lowerItRow2">
+   <div>
     <div class="cards">
+    asdasdasjjjjjj
         ${HTML2}
+        </div>
     </div>
    </div>
    </div>`
