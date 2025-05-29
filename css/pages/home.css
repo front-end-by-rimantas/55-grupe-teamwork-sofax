@@ -1,8 +1,12 @@
 /* base */
 @import '../base/base.css';
+@import '../base/layout.css';
 
 /* vendors */
 
 /* components */
+@import '../components/hero-dalis.css';
 
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */
+ 
+
