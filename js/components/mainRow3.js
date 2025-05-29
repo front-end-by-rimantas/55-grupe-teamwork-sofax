@@ -52,7 +52,7 @@ export function mainRow3(){
 
 
 
-const HTML=`<div class="container"><div class="row"><h1 class="col-12 ">Discover the right price plan for you </h1><button class="col-12">Per month per year</button>${HTML1}</div></div>`
+const HTML=`<div class="container"><div class="row"><h1 class="col-12 ">Discover the right price plan for you </h1><button class="col-2 m-5">Per month per year</button>${HTML1}</div></div>`
 
     document
     .getElementById('app')
