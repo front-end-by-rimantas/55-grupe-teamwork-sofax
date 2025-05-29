@@ -2,10 +2,13 @@
 @import "../base/base.css";
 @import "../base/layout.css";
 
+
 /* vendors */
 @import "../vendors/font-awesome.min.css";
 
 /* components */
 @import "../components/main-header.css";
 
+@import '../components/header.css';
+@import '../components/buttons.css';
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */
