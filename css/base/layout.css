@@ -1,5 +1,5 @@
 :root {
-  --half-gap: 1rem;
+  --half-gap: 1.3rem;
   --gap: calc(var(--half-gap) * 2);
   --c1: calc(100% / 12 - var(--gap));
   --c2: calc(var(--c1) + var(--gap) + var(--c1));
@@ -31,12 +31,12 @@
 .container-fluid {
   display: inline-block;
   width: 100%;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
 }
 .row {
   width: 100%;
   float: left;
-  margin: 1rem 0;
+  
 }
 .container-fluid .row {
   width: 100% !important;
