@@ -51,6 +51,12 @@
     font-size: 50px;
   }
 }
+.header-color{
+  position: relative;
+  padding-top: 8rem;
+  background-color: #F9F9FA;
+}
+
 
 @media (max-width: 768px) {
   .main-header-text .text-about h1 {

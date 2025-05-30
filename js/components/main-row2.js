@@ -25,7 +25,7 @@ export function mainRow2() {
             <div class="checkmarks">
                 ${pHTML}
             </div>
-            <button class="pink">Explore More</button>
+            <button class="pink baltas">Explore More</button>
           </div>
         </div>
       </div>

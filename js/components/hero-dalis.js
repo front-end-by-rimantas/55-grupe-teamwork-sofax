@@ -12,8 +12,8 @@ export function heroDalis() {
                  IT expertise is crucial for the growth and sustainability of any business. Here’s how integrating robust IT solutions can empower your business journey:
                 </p>
                 <div class="m-2 hero-btn">
-                    <button class="explore">Explore More</button>
-                    <button class="contact">Contact Us</button>
+                    <button class="explore baltas">Explore More</button>
+                    <button class="contact baltas">Contact Us</button>
                 </div>
             </div>
              <div class="col-lg-5 right-div">

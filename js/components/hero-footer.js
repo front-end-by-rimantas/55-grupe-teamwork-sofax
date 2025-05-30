@@ -3,19 +3,19 @@ export function herofooter() {
 
 
 const data = [
-    {
+    {   
         imgSrc: 'hero-footer1.png', 
         imgAlt: 'Hero-footer_pic1',
         title: 'IT Management',
         desc: 'Processes to the ensure IT supports business goals.'
     },
-    {
+    {   
         imgSrc: 'hero-footer2.png',
         imgAlt: 'Hero-footer_pic2',
         title: 'Cloud Services',
         desc: 'Providers and infrastructure maintenance and updates.',
     },
-    {
+    {   
         imgSrc: 'hero-footer2.png',
         imgAlt: 'Hero-footer_pic3',
         title: 'Data Security',
@@ -27,7 +27,7 @@ let HTML1 = '';
 for (const item of data) {
     HTML1 += `
          
-            <div class="col-12 col-lg-4  kvadratas">
+            <div class="col-12 col-lg-4  kvadratas ${item.pozition}">
 
                 <div class="kvadrato-pic">
                 <img src="./img/${item.imgSrc}" alt="${item.imgAlt}" >
@@ -43,7 +43,7 @@ for (const item of data) {
            
 };
 
- const HTML=`<div class="container"><div class="row konteineris"> ${HTML1} </div></div>  `
+ const HTML=`<div class="container permatomas"><div class="row konteineris"> ${HTML1} </div></div>  `
 
 document
 .getElementById('app')
