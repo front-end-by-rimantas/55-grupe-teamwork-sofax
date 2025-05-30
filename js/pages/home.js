@@ -5,6 +5,8 @@ import { mainHeader } from "../components/main-header.js";
 import { mainMainrow } from "../components/mainMainrow.js";
 import { mainRow3 } from "../components/mainRow3.js";
 import { mainRow2 } from "../components/main-row2.js";
+import {mainRow5} from "../components/main-row5.js"
+
  
  
 header();
@@ -14,4 +16,5 @@ mainHeader();
 mainMainrow();
 mainRow2();
 mainRow3();
+mainRow5();
 
