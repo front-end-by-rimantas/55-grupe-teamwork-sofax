@@ -32,7 +32,7 @@ for (let i = 0; i < 6; i++)
  const HTML=`
     <div class="container bg-grey">
             <div class="row1">
-                    <h2 class=" col-12 col-lg-5 m-lg-4 weprovide">We provide IT and business solutions</h2>
+                    <h2 class="col-12 col-lg-8 col-xl-5  weprovide">We provide IT and business solutions</h2>
                 </div>
             <div class="row2">${cardsHTML}</div>
     </div>`;
