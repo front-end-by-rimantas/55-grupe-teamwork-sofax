@@ -1,122 +1,41 @@
+import {mainColumnOneData} from "../data/main-column-one-data.js";
+
 export function mainColumnOne() {
  
  
-const data = [
+
+let cardsHTML = '';
+
+for (let i = 0; i < 6; i++)
     {
-        imgSrc: 'hero-footer1.png',
-        imgAlt: 'Hero-footer_pic1',
-        title: 'Software Development',
-        desc: 'Define to the project scope, objectives, and feasibility. Conduct risk analysis and allocate resources.'
-    },
+        const services = mainColumnOneData[i];
+        cardsHTML += `
+        <div class =" col-12 col-md-6 col-lg-4 col-xxl-4 Itservices-card">
+            <div class="mco-picture">
+                <img src="./img/MainColumnOne/${services.img}" alt="${services.imgAlt}">
+            </div>
+            <div class="mco-title">
+                <h3>${services.title}</h3>
+            </div>
+            <div class="mco-desc">
+                <p>${services.description}</p>
+            </div>
+            <div class="readmore">
+             <a href="#">Read more</a>
+             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg>
+            </div>
+        </div>`;
+    }
 
-    {
-        imgSrc: 'hero-footer2.png',
-        imgAlt: 'Hero-footer_pic2',
-        title: 'Technology Advisory',
-        desc: 'Development implementation supports risk management and staying ahead of technological trends.',
-    },
 
-    {
-        imgSrc: 'hero-footer2.png',
-        imgAlt: 'Hero-footer_pic3',
-        title: 'Analytics & Research',
-        desc: 'Investigating why a certain event trend or occurred.Identifying patterns and anomalies in data research.',
-    },
-
- 
-];
-
-const data2 =
-[
-     {
-        imgSrc: 'hero-footer1.png',
-        imgAlt: 'Hero-footer_pic1',
-        title: 'IT Strategy & Planning',
-        desc: 'IT strategy and planning it effectively is essential for aligning technology with a business goals.'
-    },
-
-    {
-        imgSrc: 'hero-footer2.png',
-        imgAlt: 'Hero-footer_pic2',
-        title: 'SEO & Optimazation',
-        desc: 'Google Analytics, Ahrefs, SEMrush, a Moz for keyword research, backlink analysis performance tracking.',
-    },
-
-    {
-        imgSrc: 'hero-footer2.png',
-        imgAlt: 'Hero-footer_pic3',
-        title: 'Network Management',
-        desc: 'This includes wide range tasks such as monitoring network performance, troubleshooting issues.',
-    },
-];
-
-let HTML1 = '';
-for (const item of data) {
-    HTML1 += `
-         
-            <div class="col-12 col-lg-4  kvadratas">
- 
-                <div class="kvadrato-pic">
-                <img src="./img/${item.imgSrc}" alt="${item.imgAlt}" >
-                </div>
- 
-                <div class="kvadrato-desine">
-                <h4>${item.title}</h4>
-                <p>${item.desc}</p>
-                <a href="#">Read More</a>
-                </div>
- 
-           </div>`
- 
-           
-};
-
-let HTML2 = '';
-for (const item of data2) {
-    HTML2 += `
-         
-            <div class="col-12 col-lg-4  kvadratas">
- 
-                <div class="kvadrato-pic">
-                <img src="./img/${item.imgSrc}" alt="${item.imgAlt}" >
-                </div>
- 
-                <div class="kvadrato-desine">
-                <h4>${item.title}</h4>
-                <p>${item.desc}</p>
-                <a href="#">Read More</a>
-                </div>
- 
-           </div>`
- 
-           
-};
  
  const HTML=`
-    <div class="container main1">
-        <div class="upperItRow">
-          <h1 class="weprovide">We provide IT and business solutions</h1>  
-        </div>
-   
-   <div class="row lowerItRow1">
-    <div>
-    <div class="cards">
-    sadsdasdasd
-        ${HTML1}
-    </div> 
-    </div>
-   </div>
-
-   <div class="row lowerItRow2">
-   <div>
-    <div class="cards">
-    asdasdasjjjjjj
-        ${HTML2}
-        </div>
-    </div>
-   </div>
-   </div>`
-
+    <div class="container bg-grey">
+            <div class="row1">
+                    <h2 class=" col-12 col-lg-5 m-lg-4 weprovide">We provide IT and business solutions</h2>
+                </div>
+            <div class="row2">${cardsHTML}</div>
+    </div>`;
         
 document
 .getElementById('app')
