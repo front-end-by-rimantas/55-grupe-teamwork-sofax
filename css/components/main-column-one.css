@@ -23,11 +23,11 @@
 }
 
 
-.readmore a
+.mco-readmore a
 {
     font-weight: 700;
 }
-.readmore
+.mco-readmore
 {
     display: flex;
     flex-direction: row;
@@ -51,7 +51,7 @@
     
 }
 
-.row1
+.mco-row1
 {
     display: flex;
     flex-direction: row;
