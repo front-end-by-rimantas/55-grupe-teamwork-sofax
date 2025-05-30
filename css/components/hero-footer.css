@@ -1,0 +1,27 @@
+.kvadratas{
+    display: flex;
+    height: 100%;
+    padding: 1.5rem;
+    border: solid 1px grey;
+}
+   
+.kvadrato-pic{
+    width: 25%;
+    height: 40%;
+}
+.kvadrato-desine{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    height: 100%;
+    padding: 0.5rem;
+}
+.kvadrato-desine p{
+    font-size: 1.1rem;
+    color: #3C3C3C;
+}
+.konteineris{
+  background-color: #fff;
+}
+
