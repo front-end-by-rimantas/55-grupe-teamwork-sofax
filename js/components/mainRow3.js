@@ -61,7 +61,7 @@ const HTML=`<div class="container mainRow3-senelis">
 
 <div class="col-12 mainRow-h1" >
 <h1>Discover the right price plan for you </h1>
-<button class="pink perdarymui">Year/Month</button>
+<button class="pink perdarymui baltas">Year/Month</button>
 </div>
 
 ${HTML1}

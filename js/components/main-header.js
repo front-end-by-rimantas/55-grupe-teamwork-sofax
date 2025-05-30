@@ -29,7 +29,7 @@ export function mainHeader() {
                 </div>`};
 
   const HTML = `
-   <main class="container">
+   <main class="container header-color">
     <div class="row">
       <div class="main-header">
         <div class="main-header-image col-12 col-lg-6">
