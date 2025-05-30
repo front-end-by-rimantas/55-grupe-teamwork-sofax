@@ -4,16 +4,20 @@
 @import '../base/layout.css';
 
 /* vendors */
+
 @import "../vendors/font-awesome.min.css";
 
 /* components */
 
+/*compnents*/
+@import'../components/mainRow3.css';
 @import "../components/mainMainrow.css";
 @import "../components/header.css";
 @import '../components/hero-dalis.css';
 @import "../components/buttons.css";
 @import "../components/hero-footer.css";
 @import "../components/main-header.css";
+@import "../components/main-row2.css";
 
 
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */
