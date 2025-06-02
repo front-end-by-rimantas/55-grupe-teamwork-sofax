@@ -38,7 +38,7 @@
   align-items: center;
   border: 1px solid;
   border-radius: 50%;
-  font-size: 45px;
+  font-size: 50px;
   width: 90px;
   height: 90px;
   transition: 0.5s;
@@ -49,8 +49,9 @@
   border-color: #fff;
 }
 
-.arrow-up i {
+.arrow-up a {
   color: #3c3c3c;
+  text-decoration: none;
   rotate: -45deg;
 }
 
@@ -75,6 +76,10 @@
 
 .social-links {
   display: flex;
+}
+
+.social-links img {
+  width: 20px;
 }
 
 .social-links a {
@@ -149,6 +154,7 @@
 .subscribe input,
 .subscribe button {
   width: 300px;
+  height: 53px;
 }
 
 .subscribe button {

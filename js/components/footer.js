@@ -8,9 +8,7 @@ export function footer() {
             <img src="../img/shape1.png" alt="" />
           </div>
           <div class="arrow-up">
-            <a href="#">
-              <i class="fa fa-arrow-right"></i>
-            </a>
+            <a href="#">&#8594;</a>
           </div>
         </div>
         <div class="footer-bottom">
@@ -18,7 +16,9 @@ export function footer() {
             <img src="../img/SofaxLogo.webp" alt="" />
             <p>Sofax has many plans for the future to work with great clients and continue to work with agencies.</p>
             <div class="social-links">
-              <a href="#" target="_blank" class="fa fa-twitter"></a>
+              <a href="#" target="_blank">
+               <img src="../img/x.png" alt="X">
+              </a>
               <a href="#" target="_blank" class="fa fa-facebook"></a>
               <a href="#" target="_blank" class="fa fa-instagram"></a>
               <a href="#" target="_blank" class="fa fa-linkedin"></a>
@@ -42,7 +42,7 @@ export function footer() {
               <li><a href="#">Licenses</a></li>
             </ul>
           </div>
-          <div class="subscribe col-md-4 col-xl-3">
+          <div class="subscribe col-12 col-md-4 col-xl-3">
             <p>Subscribe to our newsletter</p>
             <form class="form">
               <input class="white" type="email" placeholder="Enter your email" name="email" id="email" maxlength="50" required />
