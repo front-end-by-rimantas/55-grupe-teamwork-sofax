@@ -7,6 +7,8 @@ import { mainColumnOne } from "../components/main-column-one.js";
 import { mainRow2 } from "../components/main-row2.js";
 import { mainRow3 } from "../components/mainRow3.js";
 import { mainRow4 } from "../components/mainRow4.js";
+import {mainRow5} from "../components/main-row5.js"
+
 
  
 header();
@@ -18,3 +20,4 @@ mainColumnOne();
 mainRow2();
 mainRow3();
 mainRow4();
+mainRow5();
