@@ -1,0 +1,32 @@
+.pink
+{
+  background-color: #E5ABF3;
+  font-size: 1rem;
+  padding: 1rem 2.4rem;
+  border-radius: 2rem;
+  border: none;
+  font-weight: bold;
+}
+
+
+.black
+{
+  color: #fff;
+  background-color: #0E0E0E;
+  font-size: 1rem;
+  padding: 1rem 2.4rem;
+  border-radius: 2rem;
+  border: none;
+  font-weight: bold;
+}
+
+.white
+{
+  color: #0E0E0E;
+  background-color: #fff;
+  font-size: 1rem;
+  padding: 1rem 2.4rem;
+  border-radius: 2rem;
+  border: solid 1px #0E0E0E;
+  font-weight: bold;
+}
