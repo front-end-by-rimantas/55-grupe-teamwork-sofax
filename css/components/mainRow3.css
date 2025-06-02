@@ -80,14 +80,27 @@ color: #0E0E0E;
     display: flex;
    align-items: center;
    justify-content: center;
+   text-align: center;
+   padding: 1rem;
 }
 .perdarymui{
-    padding: 0.2rem;
+    padding: 0.8rem;
     font-size: 0.7rem;
 }
 .mainRow-h1 h1{
-    line-height: 2.7rem;
+    line-height: 4.3rem;
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
 
+}
+.buttonhover:hover{
+      color: #0e0e0e;
+  background-color: #fff;
+  font-size: 1rem;
+  padding: 1rem 2.4rem;
+  border-radius: 2rem;
+  border: solid 1px #0e0e0e;
+  font-weight: bold;
 }
 .plociui{
     width: 90%;
@@ -97,3 +110,16 @@ color: #0E0E0E;
   flex-direction: column;
   align-items: center;
 }
+.perdarymui:hover{
+    background-color: #fff;
+}
+@media(max-width:350px){
+    .mainRow-h1 h1{
+        font-size: 2.8rem;
+        background-color: red;
+        line-height: 2.5rem;
+       
+    }
+
+}
+

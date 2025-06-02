@@ -20,7 +20,7 @@ export function mainRow3(){
         p1:'Full email sync with templates, open, click tracking & emailing',
         p2:'Automations builder, including email sequences',
         p3:'Meeting, email and video call',
-        class:'pink baltas',
+        class:'pink buttonhover'
 
         },
             {alt:"Picture_2",
@@ -39,7 +39,7 @@ export function mainRow3(){
     let HTML1='';
     for(const item of data){
         HTML1+=`
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4  konturas">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4 m-xxl-0 konturas">
         <img src="./img/${item.pic}" alt="${item.alt}">
         <h5>${item.title}</h5>
         <h1>${item.h1}</h1>
@@ -59,11 +59,12 @@ export function mainRow3(){
 const HTML=`<div class="container mainRow3-senelis">
 <div class="row">
 
-<div class="col-12 mainRow-h1" >
+<div class="col-12 m-lg-2 col-lg-8 col-xl-8 m-xl-2 col-xxl-6 m-xxl-3  mainRow-h1" >
 <h1>Discover the right price plan for you </h1>
+<div>
 <button class="pink perdarymui">Year/Month</button>
 </div>
-
+</div>
 ${HTML1}
 </div>
 </div>`
