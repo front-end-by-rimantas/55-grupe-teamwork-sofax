@@ -9,6 +9,7 @@ import { mainRow3 } from "../components/mainRow3.js";
 import { mainRow4 } from "../components/mainRow4.js";
 import {mainRow5} from "../components/main-row5.js"
 import { footer } from "../components/footer.js"
+import { aboutUs } from "./about-Us.js";
  
 header();
 heroDalis();
@@ -21,3 +22,4 @@ mainRow3();
 mainRow4();
 mainRow5();
 footer();
+aboutUs();
