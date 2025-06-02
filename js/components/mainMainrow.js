@@ -23,8 +23,13 @@ for (const item of data){
 `
 }
 
-const HTML=`<div class="container senelis"> <div class="row tevas"><div class="col-12 col-lg-3 "><h1>We are increasing
-business success</h1></div>${HTML1} </div></div>`
+const HTML=`<div class="container senelis"> 
+<div class="row tevas">
+<div class="col-12 col-lg-3 ">
+<h1>We are increasing
+business success</h1>
+</div>${HTML1} 
+</div></div>`
 
 
      document

@@ -13,8 +13,8 @@ export function mainRow4() {
             <h1 class="Row4h1">Recently completed to our latest projects</h1>
             <button type="button" class="pink baltas">View All Projects</button>
         </div>
+        ${HTML1}
     </div>
-    ${HTML1}
 </div>
 `;
     
