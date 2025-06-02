@@ -5,7 +5,6 @@ let HTML = `<div class="container seniukas">
 <div class="row">
 
 
-
 </div>
 
 </div>`
