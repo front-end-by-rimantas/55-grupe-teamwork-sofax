@@ -41,6 +41,15 @@
   border: none;
   font-weight: bold;
 }
+.explore:hover{
+    background-color: #fff;
+    border: solid 1px black;
+}
+.contact:hover{
+    background-color: #fff;
+    color: black;
+     border: solid 1px black;
+}
 
 .contact{
     color: #fff;
