@@ -38,7 +38,7 @@
   font-size: 1rem;
   padding: 1.2rem 2.4rem;
   border-radius: 2rem;
-  border: none;
+  border: solid 1px #e5abf3;
   font-weight: bold;
 }
 
@@ -48,11 +48,12 @@
   font-size: 1rem;
   padding: 1.2rem 2.4rem;
   border-radius: 2rem;
-  border: none;
+  border: solid 1px #0e0e0e;
   font-weight: bold;
 }
 .analyst {
     margin-top: 2rem;
+    max-width: 100%;
 }
 .right-div {
     position: relative;
@@ -83,10 +84,18 @@
     .title{font-size: 75px;}
 }
 @media (max-width:1200px){
-    .title{font-size: 62px;}
+    .title{font-size: 70px; }
+}
+@media (max-width:990px){
+    .title {font-size: 85px; 
+        line-height: 90px;}
+    .hero-btn{ justify-content: center;}
 }
 
 @media (max-width: 770px){
-    .title{font-size: 62px; line-height: 70px;}
+    .title{font-size: 65px; line-height: 70px;}
      
+}
+@media (max-width: 450px) {
+    .title{font-size: 42px; line-height: 55px;}
 }
