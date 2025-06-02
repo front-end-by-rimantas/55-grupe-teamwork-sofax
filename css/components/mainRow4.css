@@ -6,7 +6,8 @@ padding-bottom: 0;
 
 }
 .Row4h1{
-    font-size: 3.8rem
+    font-size: 3.8rem;
+    width: 100%
 }
 .Row4divh1{
     display: flex;
@@ -21,15 +22,24 @@ padding-bottom: 0;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
 }
-@media(max-width:300px){
+@media(min-width:320px){
+    .baltas{
+        font-size: 0.7rem;
+}
+.baltas:hover{
+    font-size: 0.7rem;
+
+}
+}
+
+
+
+@media(max-width:350px){
     .Row4h1{
         font-size: 2.2rem;
+        border: 0.5px solid black;
     }
-    .pink,
-    .baltas{
-        padding-top: 0.3rem;
-        padding-bottom: 0.3rem;
-    }
+   
 }
 @media(min-width:992px){
     .Row4divh1 {
@@ -37,5 +47,21 @@ padding-bottom: 0;
         flex-direction: row;
         justify-content: space-between;
 
+    }
+    .h1kaire{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .baltas{
+        font-size: 0.8rem}
+    .baltas:hover{
+        font-size: 0.8rem;
+    }
+}
+@media(min-width:1200px){
+    .row4button{
+        display: flex;
+        justify-content: flex-end;
     }
 }
