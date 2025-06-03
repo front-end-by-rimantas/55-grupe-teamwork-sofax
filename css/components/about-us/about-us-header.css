@@ -1,6 +1,10 @@
-.container-header {
+
+.containerBack{
+  background-color:black;
+
+.container-header
+{
   padding: 0rem 1rem;
-  background-color: black;
 }
 
 .headeris {
@@ -8,6 +12,12 @@
   flex: row;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  z-index: 1;
 }
 
 .logo {

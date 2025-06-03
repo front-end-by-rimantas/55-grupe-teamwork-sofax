@@ -1,7 +1,7 @@
 export function aboutUsHeader () {
 
     const HTML = `
-    <div class=" container-header container">
+    <div class=" container container-header containerBack ">
         <div class="row">
             <header class="col-12 headeris">
             <div>
