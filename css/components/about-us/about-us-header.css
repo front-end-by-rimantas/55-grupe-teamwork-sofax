@@ -1,0 +1,112 @@
+.container{
+  background-color:black
+}
+.container-header
+{
+  padding: 0rem 1rem;
+ 
+
+}
+
+.headeris
+{
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.logo
+{
+  width: 120px;
+}
+
+.navbar
+{
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.navbar a
+{
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white
+}
+.forh1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 5rem;
+  color: white;
+  background-color: black;
+  padding-bottom: 7rem;
+
+
+}
+.forHome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}
+.forHome a{
+  text-decoration: none;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.forHome a:nth-last-child(1){
+  color:#e5abf3;
+  font-weight: bold;
+}
+.none480px{
+  font-weight: bold;
+  
+}
+@media(max-width:992px){
+  .navbar{
+    display: none;
+  }
+}
+@media(max-width:480px){
+  .none480px{
+    display: none;
+  }
+}
+
+
+@media(max-width:999px){
+  .forh1{
+    font-size: 3.5rem;
+  }
+}
+@media(max-width:767px){
+  .forh1{
+    font-size: 2.5rem;
+  }
+}
+@media(max-width:510px){
+  .forh1{
+    font-size: 2.1rem;
+  }
+}
+
+@media(max-width:441px){
+  .forh1{
+    font-size: 2rem;
+  }
+}
+@media(max-width:330px){
+  .forh1{
+    font-size: 1.5rem;
+  }
+  .forHome{
+    font-size: 1.2rem;
+  }
+}
