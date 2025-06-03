@@ -1,6 +1,11 @@
+.container{
+  background-color:green
+}
 .container-header
 {
   padding: 0rem 1rem;
+ 
+
 }
 
 .headeris
@@ -30,6 +35,22 @@
   font-size: 1.1rem;
   text-decoration: none;
   color: black;
+}
+.forh1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 8rem;
+  color: white;
+  background-color: black;
+
+
+}
+.forHome{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  font-size: 1.5rem;
 }
 @media(max-width:992px){
   .navbar{

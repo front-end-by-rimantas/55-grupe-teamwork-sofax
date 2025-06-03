@@ -1,7 +1,7 @@
 export function aboutUsHeader () {
 
     const HTML = `
-    <div class="container-header">
+    <div class="container container-header">
         <div class="row">
             <header class="col-12 headeris">
             <div>
@@ -17,8 +17,17 @@ export function aboutUsHeader () {
         <button class="pink baltas none480px"> Get started</button>
 
             </header>
+            
         </div>
-    </div>`;
+    </div>
+    <div class="col-12 forh1">
+            <h1>About Us</h1>
+            <div class="forHome">
+            <a href="#">Home</a>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <a href="#">About Us</a>
+            </div>
+            </div>`;
  
     document
         .getElementById('app')
