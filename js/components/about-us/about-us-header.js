@@ -14,7 +14,7 @@ export function aboutUsHeader () {
             <a href="#">Blog</a>
             <a href="#">Contact Us</a>
         </nav>
-        <button class="pink baltas none480px"> Get started</button>
+        <button class="pink baltas none480px"> Contact Us</button>
 
             </header>
             
