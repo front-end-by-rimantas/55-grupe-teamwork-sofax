@@ -79,16 +79,24 @@
     display: none;
   }
 }
+
+
+@media(max-width:999px){
+  .forh1{
+    font-size: 3.5rem;
+  }
+}
 @media(max-width:767px){
   .forh1{
     font-size: 2.5rem;
   }
 }
-@media(max-width:999px){
+@media(max-width:510px){
   .forh1{
-    font-size: 3rem;
+    font-size: 2.1rem;
   }
 }
+
 @media(max-width:441px){
   .forh1{
     font-size: 2rem;
