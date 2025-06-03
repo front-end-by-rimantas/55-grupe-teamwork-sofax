@@ -1,5 +1,6 @@
-.container{
-  background-color:black
+.containerBack{
+  background-color:black;
+
 }
 .container-header
 {
@@ -14,7 +15,13 @@
   flex: row;
   justify-content: space-between;
   align-items: center;
- 
+
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  z-index: 1;
 }
 
 .logo
