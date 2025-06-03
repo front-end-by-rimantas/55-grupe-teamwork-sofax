@@ -1,7 +1,7 @@
 export function aboutUsHeader () {
 
     const HTML = `
-    <div class="container container-header">
+    <div class=" container-header container">
         <div class="row">
             <header class="col-12 headeris">
             <div>
@@ -25,7 +25,7 @@ export function aboutUsHeader () {
             <div class="forHome">
             <a href="#">Home</a>
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <a href="#" class="pinkcolor">About Us</a>
+            <a href="#" >About Us</a>
             </div>
             </div>`;
  
