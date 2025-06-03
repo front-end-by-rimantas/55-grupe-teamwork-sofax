@@ -1,5 +1,5 @@
-import { header } from "../components/header.js";
+import { aboutUsHeader } from "../components/about-us/about-us-header.js";
 
-header();
+aboutUsHeader();
 
 
