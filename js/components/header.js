@@ -5,7 +5,7 @@ export function header() {
         <div class="row">
             <header class="col-12 headeris">
             <div>
-            <a href = "#"><img class="logo" src="./img/SofaxLogo.webp" alt="" ></a>
+            <a href = "#"><img class="logo" src="../img/SofaxLogo.webp" alt="logo" ></a>
             </div>
         <nav class="navbar">
             <a href="#">Demos</a>
