@@ -5,7 +5,7 @@ export function aboutUsHeader () {
         <div class="row">
             <header class="col-12 headeris">
             <div>
-            <a href = "#"><img class="logo" src="../img/SofaxLogo.webp" alt="logo" ></a>
+            <a href = "#"><img class="logo" src="../../../img/SofaxLogo.webp" alt="logo" ></a>
             </div>
         <nav class="navbar">
             <a href="#">Demos</a>
@@ -25,7 +25,7 @@ export function aboutUsHeader () {
             <div class="forHome">
             <a href="#">Home</a>
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <a href="#">About Us</a>
+            <a href="#" class="pinkcolor">About Us</a>
             </div>
             </div>`;
  

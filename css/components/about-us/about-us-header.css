@@ -34,7 +34,7 @@
 {
   font-size: 1.1rem;
   text-decoration: none;
-  color: black;
+  color: white
 }
 .forh1{
   display: flex;
@@ -49,8 +49,17 @@
 .forHome{
   display: flex;
   justify-content: center;
-  background-color: red;
   font-size: 1.5rem;
+  color: white;
+}
+.forHome a{
+  text-decoration: none;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.forHome a:nth-last-child(1){
+  color:#e5abf3;
 }
 @media(max-width:992px){
   .navbar{
