@@ -63,6 +63,7 @@
 }
 .forHome a:nth-last-child(1){
   color:#e5abf3;
+  font-weight: bold;
 }
 .none480px{
   font-weight: bold;
@@ -76,5 +77,28 @@
 @media(max-width:480px){
   .none480px{
     display: none;
+  }
+}
+@media(max-width:767px){
+  .forh1{
+    font-size: 2.5rem;
+  }
+}
+@media(max-width:999px){
+  .forh1{
+    font-size: 3rem;
+  }
+}
+@media(max-width:400px){
+  .forh1{
+    font-size: 2rem;
+  }
+}
+@media(max-width:330px){
+  .forh1{
+    font-size: 1.5rem;
+  }
+  .forHome{
+    font-size: 1.2rem;
   }
 }
