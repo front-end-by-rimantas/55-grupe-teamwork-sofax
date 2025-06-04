@@ -6,7 +6,7 @@ export function mainRow2() {
     for (const p of mainRow2Data) {
         pHTML += `
         <div class="checkmarks-content">
-            <img src="../img/icon5v6.png" alt="" />
+            <img src="./img/icon5v6.png" alt="logo" />
             <p>${p}</p>
         </div>`;
     }
@@ -17,7 +17,7 @@ export function mainRow2() {
     <div class="row">
       <div class="main-row2">
         <div class="main-row2-image col-12 col-md-8 col-lg-6 col-xl-5 m-xl-1">
-          <img src="../img/image3v8.png" alt="" />
+          <img src="./img/image3v8.png" alt="logo" />
         </div>
         <div class="main-row2-text col-lg-6">
           <h1>Easy solutions to for your IT problems</h1>
