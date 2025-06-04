@@ -10,8 +10,12 @@ export function mainRow4() {
 <div class="container">
     <div class="row row4-padding">
         <div class="col-12 Row4divh1 ">
+            <div class="col-12 col-lg-9 col-xl-9 h1kaire">
             <h1 class="Row4h1">Recently completed to our latest projects</h1>
-            <button type="button" class="pink baltas">View All Projects</button>
+            </div>
+            <div class="col-12 col-lg-3 col-xl-3 row4button">
+            <button type="button" class="pink baltas ">View All Projects</button>
+            </div>
         </div>
         ${HTML1}
     </div>
@@ -22,7 +26,5 @@ export function mainRow4() {
     .getElementById('app')
     .insertAdjacentHTML('beforeend', HTML);
 }
-
-
 
 
