@@ -1,0 +1,66 @@
+.containerBackground{
+    background-color: #F9F9FA;;
+}
+.forRow3Cards{
+    border: solid 1px black;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 32px;
+}
+.forChevron{
+   
+    border-radius: 50%;
+    padding: 0.5rem;
+    font-weight: none;
+    font-size: 1rem;
+    background-color: #e5abf3;
+    margin-left: 0.5rem;
+}
+.forChevron:hover{
+    background-color: #fff;
+}
+
+
+
+
+.aboutusrow3h1{
+    font-size: 3rem;
+}
+@media(max-width:1199px){
+    .aboutusrow3h1{
+        font-size: 2.9rem;
+    }
+}
+@media(max-width:992px){
+    .aboutusrow3h1{
+        font-size: 2.5rem;
+    }
+}
+
+
+@media(max-width:767px){
+    .aboutusrow3h1{
+        font-size: 2.2rem;
+    }
+}
+
+@media(max-width:350px){
+    .aboutusrow3h1{
+        font-size: 1.2rem;
+    }
+    .forRow3Cards{
+        font-size:1rem ;
+        padding: 0.5rem;
+
+    }
+    .forChevron{
+        font-size: 0.7rem;
+    }
+}
+

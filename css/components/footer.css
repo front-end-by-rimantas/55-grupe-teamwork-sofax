@@ -17,8 +17,8 @@
   line-height: 5rem;
 }
 
-.footer-about img {
-  height: 85px;
+.spinning-star {
+  height: 80px;
 
   animation-name: spin;
   animation-duration: 5s;
