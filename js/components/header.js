@@ -9,7 +9,7 @@ export function header() {
             </div>
         <nav class="navbar">
             <a href="#">Demos</a>
-            <a href="../../About-Us">About Us</a>
+            <a href="./About-Us">About Us</a>
             <a href="#">Pages</a>
             <a href="#">Blog</a>
             <a href="#">Contact Us</a>
