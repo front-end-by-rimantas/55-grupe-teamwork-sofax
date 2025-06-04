@@ -18,9 +18,9 @@ export function heroDalis() {
             </div>
              <div class="col-lg-5 right-div">
                 <div class="photo-right">
-                    <img class="analyst" src="../../img/image1v8.png" alt="Analyst"class="img-fluid" style="width:100%; height:auto;>
-                    <img class="number-leads" src="../../img/shape1v8.png" alt="numberOfLeads">
-                    <img class="global-statistic" src="../../img/shape2v8.png" alt="GlobalStatistic">
+                    <img class="analyst" src="./img/image1v8.png" alt="Analyst"class="img-fluid" style="width:100%; height:auto;>
+                    <img class="number-leads" src="./img/shape1v8.png" alt="numberOfLeads">
+                    <img class="global-statistic" src="./img/shape2v8.png" alt="GlobalStatistic">
                 </div>    
              </div>
         </div>
