@@ -6,26 +6,19 @@
 
 @import "../vendors/font-awesome.min.css";
 
-/*compnents*/
+/*components*/
 
 @import "../components/mainRow3.css";
-@import "../components/mainMainrow.css";
 @import "../components/buttons.css";
 @import "../components/header.css";
-@import '../components/hero-dalis.css';
-@import "../components/buttons.css";
-@import "../components/header.css";
-@import '../components/hero-dalis.css';
+@import "../components/hero-dalis.css";
 @import "../components/hero-footer.css";
 @import "../components/main-header.css";
 @import "../components/mainMainrow.css";
-@import'../components/mainRow3.css';
-@import '../components/main-column-one.css';
+@import "../components/main-column-one.css";
 @import "../components/main-row2.css";
 @import "../components/main-row5.css";
 @import "../components/mainRow4.css";
 @import "../components/footer.css";
-@import "../pages/about-us.css";
-@import "../components/about-us/aboutUsMain.css";
 
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */
