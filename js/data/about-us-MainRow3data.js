@@ -1,0 +1,1 @@
+export const mainRow3data=['How do I make money with cryptocurrencies?','Is cryptocurrency used for illegal activies?','How to start trading in cryptocurrency?','What is the coin to invest in today?','How can one buy/sell crypto tokens?','How to start tranding in cryptocurrency?']
