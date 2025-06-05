@@ -21,6 +21,7 @@ export const mainColumnOneData =
         description: 'Investigating why a certain event trend or occurred.Identifying patterns and anomalies in data research.',
         link: '#',
     },
+
     {
         img: 'taikinys.png',
         imgAlt: 'bullseye',
@@ -41,5 +42,5 @@ export const mainColumnOneData =
         title: 'Network Management',
         description: 'This includes wide range tasks such as monitoring network performance, troubleshooting issues.',
         link: '#',
-    },
+    }
 ];
