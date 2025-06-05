@@ -2,8 +2,8 @@ export function aboutUsHeader () {
 
     const HTML = `
     <div class=" container container-header containerBack ">
-        <div class="row">
-            <header class="col-12 headeris">
+        <div class="row ">
+            <header class="col-12 headeris" >
             <div>
             <a href = "#"><img class="logo" src="../img/logo-white-true.webp" alt="logo-white" ></a>
             </div>
