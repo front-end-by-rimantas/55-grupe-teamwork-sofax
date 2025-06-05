@@ -1,24 +1,19 @@
-.container-header
-{
+.container-header {
   padding: 0rem 1rem;
 }
 
-.headeris
-{
+.headeris {
   display: flex;
   flex: row;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.logo
-{
+.logo {
   width: 120px;
 }
 
-.navbar
-{
+.navbar .main-navbar {
   font-size: 1.4rem;
   display: flex;
   flex-direction: row;
@@ -26,19 +21,32 @@
   gap: 30px;
 }
 
-.navbar a
-{
+.navbar .main-navbar a {
   font-size: 1.1rem;
   text-decoration: none;
   color: black;
+  position: relative;
 }
-@media(max-width:992px){
-  .navbar{
+
+.navbar .main-navbar i {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-left: 0.7rem;
+  transition: all 0.5s;
+}
+
+.navbar .main-navbar a:hover > i {
+  rotate: -180deg;
+}
+
+@media (max-width: 992px) {
+  .navbar {
     display: none;
   }
 }
-@media(max-width:480px){
-  .none480px{
+
+@media (max-width: 480px) {
+  .none480px {
     display: none;
   }
 }
