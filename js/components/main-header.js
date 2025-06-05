@@ -20,7 +20,7 @@ export function mainHeader() {
               <div class="features">
                 <div class="feature-column">
                   <div class="feature-image">
-                    <img src="${item.imgSrc}" alt="">
+                    <img src="${item.imgSrc}" alt="picture">
                   </div>
                   <div class="feature-content">
                     <h2>${item.title}</h2>
@@ -33,7 +33,7 @@ export function mainHeader() {
     <div class="row">
       <div class="main-header">
         <div class="main-header-image col-12 col-lg-6">
-          <img src="./img/image2v8.png" alt="" />
+          <img src="./img/image2v8.png" alt="picture" />
         </div>
         <div class="main-header-text col-12 col-lg-6">
           <div class="text-about">
