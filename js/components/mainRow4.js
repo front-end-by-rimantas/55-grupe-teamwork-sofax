@@ -3,7 +3,7 @@ import { mainRow4Data } from "../data/mainRow4data.js";
 export function mainRow4() {
     let HTML1 = '';
     for (const item of mainRow4Data) {
-        HTML1 += `<div class="col-12 m-0 col-lg-4 col-md-6 paddingui"><img src="./img/${item.pic}" alt="${item.alt}" class="img-fluid" style="width:100%; height:auto;"></div>`;
+        HTML1 += `<div class="col-12 m-0 col-lg-4 col-md-6 paddingui hover-darken"><img src="./img/${item.pic}" alt="${item.alt}" class="img-fluid" style="width:100%; height:auto;"></div>`;
     }
 
     const HTML = `
