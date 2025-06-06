@@ -21,7 +21,7 @@
   gap: 30px;
 }
 
-.navbar .main-navbar a {
+.navbar .main-navbar .dropdown > a {
   padding-bottom: 20px;
 }
 

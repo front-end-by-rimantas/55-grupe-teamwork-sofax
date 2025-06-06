@@ -12,7 +12,7 @@ export function header() {
             for (const subItem of item.subMenu) {
                 subMenuHTML += `
                 <a href="${subItem.href}">${subItem.text}</a>
-            `
+            `;
             };
 
             navbarHTML += `
