@@ -69,31 +69,44 @@
   position: absolute;
   left: -71px;
   top: 85px;
+  animation: floatUpDown 4s ease-in-out infinite;
 }
 
 .global-statistic {
   position: absolute;
   right: -111px;
   top: -20px;
+  animation: floatUpDown 4s ease-in-out infinite;
 }
 
 .images {
   max-width: 100%;
 }
-
-@media (max-width: 1280px) {
-  .number-leads {
-    display: none;
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
   }
-  .global-statistic {
-    display: none;
+  50% {
+    transform: translateY(-40px);
   }
 }
+
+
 @media (max-width: 1400px) {
   .title {
     font-size: 75px;
   }
 }
+@media(max-width:1280px){
+  .number-leads{
+    display: none;
+  }
+  .global-statistic{
+    display: none;
+  }
+}
+
+
 @media (max-width: 1200px) {
   .title {
     font-size: 62px;
