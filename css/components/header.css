@@ -1,3 +1,7 @@
+ul {
+  list-style: none;
+}
+
 .container-header {
   padding: 0rem 1rem;
 }
@@ -79,14 +83,33 @@
   left: 0.5em;
 }
 
-.dropdown-list a {
-  padding: 1rem 0 0 1rem;
+.dropdown-list li {
+  margin: 1rem 0 0 1rem;
 }
 
-.dropdown-list a:last-child {
+.dropdown-list ul:last-child {
   margin-bottom: 0.7rem;
 }
 
 .dropdown:hover .dropdown-list {
   display: flex;
+}
+
+.dropdown-link {
+  position: relative;
+}
+
+.dropdown-list .dropdown-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background-color: black;
+  width: 0;
+  transition: width 0.5s;
+}
+
+.dropdown-list .dropdown-link:hover::after {
+  width: 100%;
 }
