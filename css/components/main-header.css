@@ -51,10 +51,12 @@
     font-size: 50px;
   }
 }
-.header-color{
+
+.header-color {
   position: relative;
   padding-top: 8rem;
   background-color: #F9F9FA;
+
 }
 
 
