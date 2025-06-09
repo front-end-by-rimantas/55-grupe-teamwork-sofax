@@ -16,8 +16,6 @@ export function contactUsheader() {
         </nav>
         <button class="pink baltas none480px"> Contact Us</button>
 
-            </header>
-            
         </div>
           <div class="col-12 forh1">
             <h1>Contact Us</h1>
