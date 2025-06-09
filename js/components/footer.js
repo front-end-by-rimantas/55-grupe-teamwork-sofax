@@ -28,7 +28,7 @@ export function footer() {
             <p>Company</p>
             <ul>
               <li><a href="./about-Us">About Us</a></li>
-              <li><a href="#">Contact US</a></li>
+              <li><a href="./contact-us">Contact US</a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Terms &amp; Conditions</a></li>
             </ul>

@@ -18,6 +18,9 @@
   right: 0;
   background-color: black;
   z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
 }
 
 .logo {
