@@ -84,7 +84,11 @@ ul {
 }
 
 .dropdown-list li {
-  margin: 1rem 0 0 1rem;
+  margin-left: 1rem;
+}
+
+.dropdown-list li:first-child {
+  margin-top: 1rem;
 }
 
 .dropdown-list ul:last-child {
@@ -95,11 +99,11 @@ ul {
   display: flex;
 }
 
-.sub-dropdown.underline a {
+.underline a {
   position: relative;
 }
 
-.sub-dropdown.underline a::after {
+.underline a::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -110,12 +114,13 @@ ul {
   transition: width 0.5s;
 }
 
-.sub-dropdown.underline a:hover::after {
+.underline a:hover::after {
   width: 100%;
 }
 
 .sub-dropdown {
   position: relative;
+  padding-bottom: 1rem;
 }
 
 .sub-dropdown-list {
@@ -133,4 +138,8 @@ ul {
 
 .sub-dropdown:hover .sub-dropdown-list {
   display: flex;
+}
+
+.sub-dropdown-list li {
+  padding-bottom: 1rem;
 }
