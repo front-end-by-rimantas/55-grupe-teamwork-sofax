@@ -1,5 +1,5 @@
-export function aboutUsHeader() {
-
+export function contactUsheader() {
+    
     const HTML = `
     <div class=" container container-header containerBack ">
         <div class="row ">
@@ -12,7 +12,7 @@ export function aboutUsHeader() {
             <a href="/About-Us">About Us</a>
             <a href="#">Pages</a>
             <a href="#">Blog</a>
-            <a href="/Contact-us">Contact Us</a>
+            <a href="../contact-us">Contact Us</a>
         </nav>
         <button class="pink baltas none480px"> Contact Us</button>
 
@@ -20,11 +20,11 @@ export function aboutUsHeader() {
             
         </div>
           <div class="col-12 forh1">
-            <h1>About Us</h1>
+            <h1>Contact Us</h1>
             <div class="forHome">
             <a href="#">Home</a>
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <a href="#" >About Us</a>
+            <a href="#" >Contact Us</a>
             </div>
             </div>
     </div>
