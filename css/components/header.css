@@ -11,9 +11,9 @@ ul {
   flex: row;
   justify-content: space-between;
   align-items: center;
-  
-.logo
-{
+}
+
+.logo {
   width: 120px;
 }
 
@@ -95,11 +95,11 @@ ul {
   display: flex;
 }
 
-.dropdown-link {
+.sub-dropdown.underline a {
   position: relative;
 }
 
-.dropdown-list .dropdown-link::after {
+.sub-dropdown.underline a::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -110,6 +110,27 @@ ul {
   transition: width 0.5s;
 }
 
-.dropdown-list .dropdown-link:hover::after {
+.sub-dropdown.underline a:hover::after {
   width: 100%;
+}
+
+.sub-dropdown {
+  position: relative;
+}
+
+.sub-dropdown-list {
+  display: none;
+  flex-direction: column;
+  width: 170px;
+  box-shadow: -3px 3px 50px -20px #b2b2b2;
+  border-radius: 4px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 9.6rem;
+  z-index: 1;
+}
+
+.sub-dropdown:hover .sub-dropdown-list {
+  display: flex;
 }
