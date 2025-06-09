@@ -3,20 +3,21 @@ export function contactUsheader() {
     const HTML = `
     <div class=" container container-header containerBack ">
         <div class="row ">
-            <header class="col-12 headeris" >
-            <div>
-            <a href = "#"><img class="logo" src="../img/logo-white-true.webp" alt="logo-white" ></a>
-            </div>
-        <nav class="navbar">
-            <a href="#">Demos</a>
-            <a href="/About-Us">About Us</a>
-            <a href="#">Pages</a>
-            <a href="#">Blog</a>
-            <a href="../contact-us">Contact Us</a>
-        </nav>
-        <button class="pink baltas none480px"> Contact Us</button>
+                <header class="col-12 headeris" >
+                <div>
+                <a href = "#"><img class="logo" src="../img/logo-white-true.webp" alt="logo-white" ></a>
+                </div>
+                <nav class="navbar">
+                        <a href="#">Demos</a>
+                        <a href="/About-Us">About Us</a>
+                        <a href="#">Pages</a>
+                        <a href="#">Blog</a>
+                        <a href="../contact-us">Contact Us</a>
+                </nav>
+                    <button class="pink baltas none480px"> Contact Us</button>
 
-        </div>
+            </div>
+
           <div class="col-12 forh1">
             <h1>Contact Us</h1>
             <div class="forHome">
