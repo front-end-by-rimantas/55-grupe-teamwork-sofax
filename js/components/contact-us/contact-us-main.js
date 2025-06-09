@@ -16,14 +16,31 @@ export function contactUsMain() {
     const HTML = `
     <div class="container">
         <div class="row">
-            <div class="cuKairys">
+            <div class="col-12 col-lg-6 cuKairys">
                 ${HTML1}
             </div>
-            <div class="cuDesinys"> <!-- Pataisyta: trūko uždarančios kabutės -->
-                <!-- Čia galite įdėti dešinės pusės turinį -->
+            <div class="col-12 col-lg-6 cuDesinys"> 
+            <h2>Send us a message</h2>
+            <div>
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Your name"></input>
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="name" placeholder="Email Address"></input>
+            <div>
+            <label for="message">Your message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your comment"></textarea>
+            </div>
+            <label>
+            <input type="checkbox" name="option1"> Save my name, email, & website in this browser for the next time I comment.</label>
+    
+            <button class="pink">Post Comment</button>
+            </div>
+
+
             </div>
         </div>
     </div>`;
 
-    document.getElementById('app').insertAdjacentHTML('beforeend',HTML)
+    document.getElementById('app').insertAdjacentHTML('beforeend', HTML)
+
 }
