@@ -35,7 +35,7 @@ ul {
   color: black;
 }
 
-.main-navbar i {
+.subMenu-angle {
   font-size: 1.1rem;
   font-weight: bold;
   margin-left: 0.5rem;
@@ -92,7 +92,7 @@ ul {
 }
 
 .dropdown-list ul:last-child {
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.2rem;
 }
 
 .dropdown:hover .dropdown-list {
@@ -119,6 +119,7 @@ ul {
 }
 
 .sub-dropdown {
+  display: flex;
   position: relative;
   padding-bottom: 1rem;
 }

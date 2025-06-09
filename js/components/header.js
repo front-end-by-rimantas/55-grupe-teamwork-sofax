@@ -22,7 +22,7 @@ export function header() {
 
                     subMenuHTML += `
                         <li class="sub-dropdown">
-                            <a href="${subItem.href}">${subItem.text}<i class="fa fa-angle-right"></i></a>
+                            <a href="${subItem.href}">${subItem.text}<i class="subMenu-angle fa fa-angle-right"></i></a>
                             <div class="sub-dropdown-list underline"><ul>${subSubMenuHTML}</ul></div>
                         </li>`;
 
@@ -33,7 +33,7 @@ export function header() {
 
             navbarHTML += `
             <div class="dropdown">
-                <a href="${item.href}">${item.text}<i class="fa fa-angle-down"></i></a>
+                <a href="${item.href}">${item.text}<i class="subMenu-angle fa fa-angle-down"></i></a>
                 <div class="dropdown-list"><i class="top-angle fa fa-caret-up"></i><ul>${subMenuHTML}</ul></div>
             </div>`;
         } else {
