@@ -1,0 +1,10 @@
+.map{
+    width: 100%;
+    height: auto;
+   
+}
+.forMap {
+    display: flex;
+    flex-direction: column;
+ 
+}
