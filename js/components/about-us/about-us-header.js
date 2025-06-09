@@ -1,4 +1,4 @@
-export function aboutUsHeader () {
+export function aboutUsHeader() {
 
     const HTML = `
     <div class=" container container-header containerBack ">
@@ -29,7 +29,7 @@ export function aboutUsHeader () {
             </div>
     </div>
   `;
- 
+
     document
         .getElementById('app')
         .insertAdjacentHTML('beforeend', HTML);
