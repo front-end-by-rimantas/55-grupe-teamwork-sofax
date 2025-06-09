@@ -1,10 +1,10 @@
-/*   import {cuMaindata } from "../../data/contact-us-maindata.js";*/
- import { cuMaindata } from "../../data/contact-us-maindata.js"
+
+import { maindata } from "../../data/contactUsMainData.js"
 
 export function contactUsMain() {
     let HTML1 = '';
     
-    for (const item of cuMaindata) {
+    for (const item of maindata) {
         HTML1 += `
         <div class="contact-item">
             <img src="${item.imgInf}" alt="${item.altInf}">

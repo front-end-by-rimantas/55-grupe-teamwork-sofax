@@ -1,4 +1,4 @@
-const cuMaindata = [
+export const maindata = [
     {
         imgInf: '../img/Cumain1.png',
         altInf: 'Pic-1',
