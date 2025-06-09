@@ -9,15 +9,13 @@ export function aboutUsHeader() {
             </div>
         <nav class="navbar">
             <a href="#">Demos</a>
-            <a href="#">About Us</a>
+            <a href="/About-Us">About Us</a>
             <a href="#">Pages</a>
             <a href="#">Blog</a>
-            <a href="#">Contact Us</a>
+            <a href="/Contact-us">Contact Us</a>
         </nav>
         <button class="pink baltas none480px"> Contact Us</button>
 
-            </header>
-            
         </div>
           <div class="col-12 forh1">
             <h1>About Us</h1>
