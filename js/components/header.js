@@ -45,16 +45,18 @@ export function header() {
     const HTML = `
     <div class="container-header">
         <div class="row">
-            <header class="col-12 headeris">
-                <div>
-                    <a href = "#"><img class="logo" src="./img/SofaxLogo.webp" alt="logo" ></a>
-                </div>
-                <nav class="navbar">
-                    <div class="main-navbar">
-                   ${navbarHTML}
+            <header>
+                <div class="col-10 m-1 headeris">
+                    <div>
+                        <a href = "#"><img class="logo" src="./img/SofaxLogo.webp" alt="logo" ></a>
                     </div>
-                </nav>
-                <button class="pink baltas none480px"> Get started</button>
+                    <nav class="navbar">
+                        <div class="main-navbar">
+                       ${navbarHTML}
+                        </div>
+                    </nav>
+                    <button class="pink baltas none480px"> Get started</button>
+                </div>
             </header>
         </div>
     </div>`;
