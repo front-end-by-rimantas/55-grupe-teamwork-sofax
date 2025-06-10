@@ -95,7 +95,7 @@ export const headerData = [
             },
         ]
     },
-    { href: './About-Us', text: 'About us' },
+    { href: './about-us-new', text: 'About us' },
     {
         href: '#', text: 'Pages', subMenu: [
             {
