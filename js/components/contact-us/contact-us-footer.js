@@ -30,7 +30,7 @@ export function contactUsFooter() {
     <p>Company</p>
     <ul>
       <li><a href="../About-Us">About Us</a></li>
-      <li><a href="/Contact-us">Contact US</a></li>
+      <li><a href="../Contact-us">Contact US</a></li>
       <li><a href="#">Privacy Policy</a></li>
       <li><a href="#">Terms &amp; Conditions</a></li>
     </ul>

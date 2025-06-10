@@ -29,8 +29,8 @@ export function aboutUsFooter() {
           <div class="company col-12 col-md-3 m-md-0 m-lg-1 col-xl-3 m-xl-0">
             <p>Company</p>
             <ul>
-              <li><a href="./About-Us">About Us</a></li>
-              <li><a href="#">Contact US</a></li>
+              <li><a href="../about-us">About Us</a></li>
+              <li><a href="../contact-us">Contact US</a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Terms &amp; Conditions</a></li>
             </ul>
