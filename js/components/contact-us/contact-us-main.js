@@ -7,36 +7,48 @@ export function contactUsMain() {
     for (const item of maindata) {
         HTML1 += `
         <div class="contact-item">
-            <img src="${item.imgInf}" alt="${item.altInf}">
-            <h3>${item.title}</h3> <!-- Pataisyta: buvo item.title.Inf -->
+            <div class="cu-img">
+                <img src="${item.imgInf}" alt="${item.altInf}">
+            </div>
+            <div class="contact-desc">
+            <h2>${item.title}</h2> 
             <p>${item.desc}</p>
+            </div>
         </div>`;
     }
     
     const HTML = `
-    <div class="container">
+    <div class="container cu-container">
         <div class="row">
-            <div class="col-12 col-lg-6 cuKairys">
+            <div class="col-12 col-lg-6 cu-kairys">
                 ${HTML1}
             </div>
-            <div class="col-12 col-lg-6 cuDesinys"> 
-            <h2>Send us a message</h2>
-            <div>
-            <label for="name">Your name</label>
-            <input type="text" id="name" name="name" placeholder="Your name"></input>
-            <label for="email">Your email</label>
-            <input type="email" id="email" name="name" placeholder="Email Address"></input>
-            <div>
-            <label for="message">Your message:</label>
-            <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your comment"></textarea>
+            <div class="col-12 col-lg-6 cu-desinys"> 
+            <div class="col-12 ">
+                    <h2 >Send us a message</h2>
+                    </div>
+            <div class=" for-labels-inputs">
+                            <div class="col-12 col-lg-6 for-labels-cu">
+                        <label class=" for-placeholders">Your name</label>
+                        <input class=" cu-labels" type="text" id="name" name="name" placeholder="Your name"></input>
+                            </div>
+                            <div class="col-12 col-lg-6 for-labels-cu">
+                        <label class=" for-placeholders" for="email">Your email</label>
+                        <input class=" cu-labels" type="email" id="email" name="email" placeholder="Email Address" required></input>
+                            </div>
             </div>
-            <label>
-            <input type="checkbox" name="option1"> Save my name, email, & website in this browser for the next time I comment.</label>
-    
-            <button class="pink">Post Comment</button>
-            </div>
-
-
+                    <div class="col-12 col-lg-12 cu-desinys-down">
+                        <label class=" for-placeholders" for="message">Your message:</label>
+                        <textarea class=" cu-labels-text" id="message" name="message" rows="4" cols="50" placeholder="Write your comment"></textarea>
+                    </div>
+                    <div class="col-12  for-button-cu">
+                    <label>
+                    <input   type="checkbox" name="option1"> Save my name, email, & website in this browser for the next time I comment.</label>
+                    <div>
+                    <button class="pink baltas">Post Comment</button>
+                    </div>
+                    </div>
+                    </div>
             </div>
         </div>
     </div>`;
