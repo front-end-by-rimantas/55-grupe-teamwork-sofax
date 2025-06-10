@@ -12,7 +12,7 @@ export function aboutUsHeader() {
             <a href="/About-Us">About Us</a>
             <a href="#">Pages</a>
             <a href="#">Blog</a>
-            <a href="/Contact-us">Contact Us</a>
+            <a href="../contact-us">Contact Us</a>
         </nav>
         <button class="pink baltas none480px"> Contact Us</button>
 
