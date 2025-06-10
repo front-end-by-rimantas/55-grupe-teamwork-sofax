@@ -1,4 +1,4 @@
-export const headerData = [
+export const aboutHeaderData = [
     {
         href: '#', text: 'Demos', subMenu: [
             {
@@ -95,11 +95,11 @@ export const headerData = [
             },
         ]
     },
-    { href: './about-us-new', text: 'About us' },
+    { href: '../about-us-new', text: 'About us' },
     {
         href: '#', text: 'Pages', subMenu: [
             {
-                href: './about-us-new',
+                href: '../about-us-new',
                 text: 'About Us',
             },
             {
@@ -230,5 +230,5 @@ export const headerData = [
             },
         ]
     },
-    { href: './contact-us-new', text: 'Contact Us' },
+    { href: '../contact-us-new', text: 'Contact Us' },
 ];
