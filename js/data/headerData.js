@@ -99,7 +99,7 @@ export const headerData = [
     {
         href: '#', text: 'Pages', subMenu: [
             {
-                href: './About-Us',
+                href: './about-us-new',
                 text: 'About Us',
             },
             {
@@ -230,5 +230,5 @@ export const headerData = [
             },
         ]
     },
-    { href: './Contact-us', text: 'Contact Us' },
+    { href: './contact-us-new', text: 'Contact Us' },
 ];
