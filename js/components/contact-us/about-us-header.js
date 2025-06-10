@@ -9,7 +9,7 @@ export function contactUsheader() {
                 </div>
                 <nav class="navbar">
                         <a href="#">Demos</a>
-                        <a href="/About-Us">About Us</a>
+                        <a href="../About-Us"">About Us</a>
                         <a href="#">Pages</a>
                         <a href="#">Blog</a>
                         <a href="../contact-us">Contact Us</a>
