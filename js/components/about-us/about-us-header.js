@@ -9,10 +9,10 @@ export function aboutUsHeader() {
             </div>
         <nav class="navbar">
             <a href="#">Demos</a>
-            <a href="/About-Us">About Us</a>
+            <a href="/about-us-new">About Us</a>
             <a href="#">Pages</a>
             <a href="#">Blog</a>
-            <a href="../contact-us">Contact Us</a>
+            <a href="../contact-us-new">Contact Us</a>
         </nav>
         <button class="pink baltas none480px"> Contact Us</button>
 
