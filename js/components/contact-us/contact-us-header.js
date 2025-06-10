@@ -1,48 +1,49 @@
+
 import { headerData } from "../../data/headerData.js";
 
-export function aboutUsHeader() {
+export function contactUsheader() {
 
-  let navbarHTML = ``;
+    let navbarHTML = ``;
 
-  for (const item of headerData) {
-    if (item.subMenu) {
+    for (const item of headerData) {
+        if (item.subMenu) {
 
-      let subMenuHTML = '';
+            let subMenuHTML = '';
 
-      for (const subItem of item.subMenu) {
-        if (subItem.subMenu) {
+            for (const subItem of item.subMenu) {
+                if (subItem.subMenu) {
 
-          let subSubMenuHTML = ``;
+                    let subSubMenuHTML = ``;
 
-          for (const subSubItem of subItem.subMenu) {
-            if (subSubItem) {
-              subSubMenuHTML += `<li><a href="${subSubItem.href}">${subSubItem.text}</a></li>`
-            }
-          }
+                    for (const subSubItem of subItem.subMenu) {
+                        if (subSubItem) {
+                            subSubMenuHTML += `<li><a href="${subSubItem.href}">${subSubItem.text}</a></li>`
+                        }
+                    }
 
-          subMenuHTML += `
+                    subMenuHTML += `
                         <li class="sub-dropdown">
                             <a href="${subItem.href}">${subItem.text}<i class="subMenu-angle fa fa-angle-right"></i></a>
                             <div class="sub-dropdown-list underline"><ul>${subSubMenuHTML}</ul></div>
                         </li>`;
 
-        } else {
-          subMenuHTML += `<li class="sub-dropdown underline"><a href="${subItem.href}">${subItem.text}</a></li>`
-        }
-      };
+                } else {
+                    subMenuHTML += `<li class="sub-dropdown underline"><a href="${subItem.href}">${subItem.text}</a></li>`
+                }
+            };
 
-      navbarHTML += `
+            navbarHTML += `
             <div class="dropdown">
                 <a href="${item.href}">${item.text}<i class="subMenu-angle fa fa-angle-down"></i></a>
                 <div class="dropdown-list"><i class="top-angle fa fa-caret-up"></i><ul>${subMenuHTML}</ul></div>
             </div>`;
-    } else {
-      navbarHTML += `<div class="dropdown"><a href="${item.href}">${item.text}</a></div>`;
+        } else {
+            navbarHTML += `<div class="dropdown"><a href="${item.href}">${item.text}</a></div>`;
+        }
     }
-  }
 
 
-  const HTML = `
+    const HTML = `
     <div class="container-header">
         <div class="row">
             <header>
@@ -60,19 +61,19 @@ export function aboutUsHeader() {
             </header>
         </div>
     </div>
-        <div class=" container container-header containerBack ">
+    <div class=" container container-header containerBack ">
           <div class="col-12 forh1">
-            <h1>About Us</h1>
+            <h1>Contact Us</h1>
             <div class="forHome">
             <a href="../">Home</a>
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <a href="#" >About Us</a>
+            <a href="#" >Contact Us</a>
             </div>
-          </div>
-        </div>`;
+            </div>
+    </div>`;
 
-  document
-    .getElementById('app')
-    .insertAdjacentHTML('beforeend', HTML);
+    document
+        .getElementById('app')
+        .insertAdjacentHTML('beforeend', HTML);
 
 }
