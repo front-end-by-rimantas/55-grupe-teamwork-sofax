@@ -1,6 +1,7 @@
-import { headerData } from "../data/headerData.js";
 
-export function header() {
+import { headerData } from "../../data/headerData.js";
+
+export function contactUsheader() {
 
     let navbarHTML = ``;
 
@@ -48,7 +49,7 @@ export function header() {
             <header>
                 <div class="col-10 m-1 headeris">
                     <div>
-                        <a href = "#"><img class="logo" src="./img/SofaxLogo.webp" alt="logo" ></a>
+                        <a href = "#"><img class="logo" src="../img/logo-white.svg" alt="logo-white" ></a>
                     </div>
                     <nav class="navbar">
                         <div class="main-navbar">
@@ -59,6 +60,16 @@ export function header() {
                 </div>
             </header>
         </div>
+    </div>
+    <div class=" container container-header containerBack ">
+          <div class="col-12 forh1">
+            <h1>Contact Us</h1>
+            <div class="forHome">
+            <a href="../">Home</a>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <a href="#" >Contact Us</a>
+            </div>
+            </div>
     </div>`;
 
     document
