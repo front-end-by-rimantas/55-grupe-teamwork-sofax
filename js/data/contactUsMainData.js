@@ -1,6 +1,6 @@
 export const maindata = [
     {
-        imgInf: '../img/Cumain1.png',
+        imgInf: '../img/CUmain1.png',
         altInf: 'Pic-1',
         title: 'Chat with us',
         desc: `We're waiting to help you every Monday-Friday from 9 am to 5 pm EST easily.`
