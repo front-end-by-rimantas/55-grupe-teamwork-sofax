@@ -29,17 +29,17 @@ export function footer() {
             <ul>
               <li><a href="./about-us-new">About Us</a></li>
               <li><a href="./contact-us-new">Contact US</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="./contact-us-new">Privacy Policy</a></li>
               <li><a href="#">Terms &amp; Conditions</a></li>
             </ul>
           </div>
           <div class="utility col-12 col-md-3 col-xl-2">
             <p>Utility pages</p>
             <ul>
-              <li><a href="#">Instructions</a></li>
-              <li><a href="#">Style guide</a></li>
+              <li><a href="./contact-us-new">Instructions</a></li>
+              <li><a href="./contact-us-new">Style guide</a></li>
               <li><a href="#">404 Pages</a></li>
-              <li><a href="#">Licenses</a></li>
+              <li><a href="./contact-us-new">Licenses</a></li>
             </ul>
           </div>
           <div class="subscribe col-12 col-md-4 col-xl-3">
