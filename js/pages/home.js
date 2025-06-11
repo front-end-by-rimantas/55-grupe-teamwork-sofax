@@ -1,3 +1,4 @@
+import { back2TopBtn } from "../components/backToTopButton.js";
 import { header } from "../components/header.js";
 import { heroDalis } from "../components/hero-dalis.js";
 import { herofooter } from "../components/hero-footer.js";
@@ -10,7 +11,7 @@ import { mainRow4 } from "../components/mainRow4.js";
 import {mainRow5} from "../components/main-row5.js"
 import { footer } from "../components/footer.js";
 
- 
+back2TopBtn(); 
 header(true);
 heroDalis();
 herofooter();

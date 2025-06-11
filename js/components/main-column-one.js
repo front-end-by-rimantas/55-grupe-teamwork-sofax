@@ -8,17 +8,17 @@ let cardsHTML = '';
 
 for (let i = 0; i < 6; i++)
     {
-        const services = mainColumnOneData[i];
+        const services1 = mainColumnOneData[i];
         cardsHTML += `
-        <div class =" col-12 col-md-6 col-lg-4 col-xxl-4 Itservices-card">
+        <div class ="Itservices-card">
             <div class="mco-picture">
-                <img src="./img/MainColumnOne/${services.img}" alt="${services.imgAlt}">
+                <img src="./img/MainColumnOne/${services1.img}" alt="${services1.imgAlt}">
             </div>
             <div class="mco-title">
-                <h3>${services.title}</h3>
+                <h3>${services1.title}</h3>
             </div>
             <div class="mco-desc">
-                <p>${services.description}</p>
+                <p>${services1.description}</p>
             </div>
             <div class="readmore">
              <a href="#">Read more</a>
@@ -28,16 +28,24 @@ for (let i = 0; i < 6; i++)
     }
 
 
+
  
  const HTML=`
     <div class="container bg-grey">
             <div class="row1">
                     <h2 class="col-12 col-lg-8 col-xl-5  weprovide">We provide IT and business solutions</h2>
                 </div>
-            <div class="row2">${cardsHTML}</div>
-    </div>`;
+        <div class="container cards">
+            <div class="row2">
+                <div class="col-12 list">
+                    <div class="card">${cardsHTML}</div>
+                </div>
+            </div>
+        </div>`;
         
 document
 .getElementById('app')
 .insertAdjacentHTML('beforeend', HTML);
 }
+
+
