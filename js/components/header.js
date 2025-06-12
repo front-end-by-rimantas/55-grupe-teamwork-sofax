@@ -47,7 +47,7 @@ export function header() {
         <div class="row">
             <header class="col-12 headeris">
                 <div>
-                    <a href = "./app"><img class="logo" src="./img/SofaxLogo.webp" alt="logo" ></a>
+                    <a href = "#"><img class="logo" src="./img/SofaxLogo.webp" alt="logo" ></a>
                 </div>
                 <nav class="navbar">
                     <div class="main-navbar">

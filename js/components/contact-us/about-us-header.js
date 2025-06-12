@@ -5,7 +5,7 @@ export function contactUsheader() {
         <div class="row ">
                 <header class="col-12 headeris" >
                 <div>
-                <a href = "../app"><img class="logo" src="../img/logo-white-true.webp" alt="logo-white" ></a>
+                <a href = "#"><img class="logo" src="../img/logo-white-true.webp" alt="logo-white" ></a>
                 </div>
                 <nav class="navbar">
                         <a href="#">Demos</a>
