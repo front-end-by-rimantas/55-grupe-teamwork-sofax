@@ -41,7 +41,6 @@ export function header() {
         }
     }
 
-
     const HTML = `
     <div class="container-header">
         <div class="row">
@@ -59,15 +58,11 @@ export function header() {
                         <div class="mobile-menu">
                             <div class="menu-header">
                                 <i class="menu-return fa fa-angle-left"></i>
-                                <span class="menu-title">SOMETHING</span>
+                                <span class="menu-title"></span>
                                 <i class="menu-close fa fa-times"></i>
                             </div>
                             <div class="mobile-menu-links">
-                                <a href="#">Demos</a>
-                                <a href="#">About Us</a>
-                                <a href="#">Pages</a>
-                                <a href="#">Blog</a>
-                                <a href="#">Contact Us</a>
+                                ${navbarHTML}
                             </div>
                         </div>
                         <div class="blackout"></div>
@@ -86,6 +81,11 @@ export function header() {
     const menuTriggerDOM = document.querySelector('.mobile-menu-trigger');
     const blackoutDOM = document.querySelector('.blackout');
     const mobileMenuDOM = document.querySelector('.mobile-menu');
+    const closeBtnDOM = document.querySelector('.menu-close');
+    const mobileDropdownDOM = document.querySelectorAll('.mobile-menu .dropdown');
+    const mobileDropdownNameDOM = document.querySelectorAll('.mobile-menu-links .dropdown > a')
+
+    const mobileMenuTitle = document.querySelector('.menu-title')
 
     menuTriggerDOM.addEventListener('click', () => {
         blackoutDOM.classList.add('active')
@@ -96,4 +96,32 @@ export function header() {
         blackoutDOM.classList.remove('active')
         mobileMenuDOM.classList.remove('active')
     })
+
+    closeBtnDOM.addEventListener('click', () => {
+        blackoutDOM.classList.remove('active')
+        mobileMenuDOM.classList.remove('active')
+    })
+
+
+    for (const list of mobileDropdownDOM) {
+        list.addEventListener('click', () => {
+            const currentDropdownList = list.querySelector('.mobile-menu .dropdown-list');
+            if (currentDropdownList) {
+                currentDropdownList.classList.add('active');
+
+                for (const name of mobileDropdownNameDOM) {
+                    mobileMenuTitle.textContent = name.textContent;
+                }
+            }
+
+        });
+
+    }
+
+    console.log(mobileDropdownNameDOM[0].textContent);
+    console.log(mobileDropdownNameDOM[1].textContent);
+    console.log(mobileDropdownNameDOM[2].textContent);
+    console.log(mobileDropdownNameDOM[3].textContent);
+    console.log(mobileDropdownNameDOM[4].textContent);
+
 }

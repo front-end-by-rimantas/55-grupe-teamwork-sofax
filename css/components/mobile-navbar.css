@@ -83,3 +83,60 @@ a {
   border-bottom: 1px solid #e5e5e5;
   padding-left: 1rem;
 }
+
+.mobile-menu-links .dropdown .subMenu-angle {
+  rotate: -90deg;
+}
+
+.mobile-menu-links .dropdown .subMenu-angle:hover i {
+  rotate: -90deg;
+}
+
+.mobile-menu-links .dropdown a {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.mobile-menu-links .top-angle {
+  display: none;
+}
+
+.mobile-navbar .dropdown .dropdown-list {
+  display: none;
+}
+
+.mobile-navbar .dropdown .dropdown-list.active {
+  display: grid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 100vh;
+}
+
+.mobile-navbar .dropdown-list {
+  margin-top: 3rem;
+  box-shadow: none;
+}
+
+.mobile-navbar .dropdown-list li:first-child {
+  margin-top: 0;
+}
+
+.mobile-navbar .sub-dropdown {
+  margin-left: 0;
+  border-bottom: 1px solid #e5e5e5;
+  height: 3rem;
+}
+
+.mobile-navbar .sub-dropdown .subMenu-angle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  rotate: 0deg;
+}
+
+.mobile-navbar .sub-dropdown .sub-dropdown-list {
+  display: none;
+}
