@@ -52,11 +52,29 @@ export function header() {
                     </div>
                     <nav class="navbar">
                         <div class="main-navbar">
-                       ${navbarHTML}
+                        ${navbarHTML}
                         </div>
                     </nav>
-                    <button class="pink baltas none480px"> Get started</button>
-                </div>
+                    <div class="mobile-navbar">
+                        <div class="mobile-menu">
+                            <div class="menu-header">
+                                <i class="menu-return fa fa-angle-left"></i>
+                                <span class="menu-title">SOMETHING</span>
+                                <i class="menu-close fa fa-times"></i>
+                            </div>
+                            <div class="mobile-menu-links">
+                                <a href="#">Demos</a>
+                                <a href="#">About Us</a>
+                                <a href="#">Pages</a>
+                                <a href="#">Blog</a>
+                                <a href="#">Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="blackout"></div>
+                            <button class="pink baltas none480px"> Get started</button>
+                            <span class="mobile-menu-trigger fa fa-bars"></span>
+                        </div>
+                    </div>
             </header>
         </div>
     </div>`;
@@ -65,4 +83,17 @@ export function header() {
         .getElementById('app')
         .insertAdjacentHTML('beforeend', HTML);
 
+    const menuTriggerDOM = document.querySelector('.mobile-menu-trigger');
+    const blackoutDOM = document.querySelector('.blackout');
+    const mobileMenuDOM = document.querySelector('.mobile-menu');
+
+    menuTriggerDOM.addEventListener('click', () => {
+        blackoutDOM.classList.add('active')
+        mobileMenuDOM.classList.add('active')
+    });
+
+    blackoutDOM.addEventListener('click', () => {
+        blackoutDOM.classList.remove('active')
+        mobileMenuDOM.classList.remove('active')
+    })
 }
