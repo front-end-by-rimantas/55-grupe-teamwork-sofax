@@ -118,10 +118,10 @@ export function header() {
 
     }
 
-    console.log(mobileDropdownNameDOM[0].textContent);
-    console.log(mobileDropdownNameDOM[1].textContent);
-    console.log(mobileDropdownNameDOM[2].textContent);
-    console.log(mobileDropdownNameDOM[3].textContent);
-    console.log(mobileDropdownNameDOM[4].textContent);
+    // console.log(mobileDropdownNameDOM[0].textContent);
+    // console.log(mobileDropdownNameDOM[1].textContent);
+    // console.log(mobileDropdownNameDOM[2].textContent);
+    // console.log(mobileDropdownNameDOM[3].textContent);
+    // console.log(mobileDropdownNameDOM[4].textContent);
 
 }
